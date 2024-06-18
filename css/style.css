@@ -6,6 +6,8 @@
     font-family: 'Manrope', sans-serif;
 }
 
+/* || Desktop Screen */
+
 nav {
     width: 1,510.85px;
     height: 135px;
@@ -49,7 +51,6 @@ nav .logo {
     outline: 0;
     padding: 24px 40px;
     border-radius: 16px;
-    font-family: Manrope;
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
@@ -92,12 +93,10 @@ align-items: center;
 }
 
 .button {
-    margin: auto;
-    width: 588px;
-    height: 75px;
+    margin: 20px 20%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 32px;
     padding-top: 20px;
 }
@@ -107,7 +106,6 @@ align-items: center;
     height: 75px;
     padding: 24px 40px;
     border-radius: 16px;
-    font-family: Manrope;
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
@@ -171,7 +169,6 @@ align-items: center;
 
 .row1, .row2, .row3, .row4 {
     display: flex;
-    flex: wrap;
     justify-content: space-around;
     padding-top: 24px;
 }
@@ -248,21 +245,387 @@ align-items: center;
     font-size: 24px;
     font-weight: 800;
     line-height: 43.71px;
+    /* text-align: center; */
 }
 
 .accurate p {
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
 .contain {
     display: flex;
+    margin-top: 80px;
+    gap: 10%;
+    justify-content: space-between;
+    color: #000;
 }
 
 .contain img {
-    width: 731px;
-    height: 693px;
+    width: 50%;
+    height: 600px;
+}
+
+.contents {
+display: block;
+justify-content: left;
+text-align: left;
+width: 40%;
+height: auto;
+gap: 47px;
+}
+
+.contents p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    /* padding-top: 20px; */
+    text-align: justify;
+    padding: 32px;
+}
+
+.contents span {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32.78px;
+    text-align: left;
+}
+
+
+.button {
+    width: 278px;
+    height: 75px;
+    background: #6FC247;
+    color: #FFFFFF;
+    border: 0;
+    outline: 0;
+    padding: 24px 40px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.demo {
+    margin: 20px 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* || Tablet Screen */
+
+@media screen and  (min-width: 834px;) {
+    nav {
+        width: 1,510.85px;
+        height: 135px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 103px;
+        border-bottom: 1px solid #000;
+    }
+    
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 10px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    nav ul li a {
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+        text-decoration: none;
+        color: #636363;
+    }
+    
+    nav ul li a:active {
+        color: #065666;
+    }
+    
+    nav .logo {
+        width: 169.85px;
+        height: 23px;
+        cursor: pointer;    
+    }
+    
+    .nav-button {
+        background: #6FC247;
+        color: #FFFFFF;
+        border: 0;
+        outline: 0;
+        padding: 24px 40px;
+        border-radius: 16px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .icon {
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+    }
+    
+    .hero {
+    display: block;
+    align-items: center;
+    }
+    
+    .hero h1 {
+        width: 971px;
+        height: 174px;
+        margin: auto;
+        font-family: Manrope;
+        font-size: 52px;
+        font-weight: 800;
+        line-height: 87.42px;
+        text-align: center;
+        color: #373737;
+    }
+    
+    .hero p {
+        width: 971px;
+        height: 129px;
+        font-family: Manrope;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 43.2px;
+        margin: auto;
+        text-align: center;
+        color: #373737;
+    
+    }
+    
+    .button {
+        margin: 20px 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 32px;
+        padding-top: 20px;
+    }
+    
+    .hero button {
+        width: 278px;
+        height: 75px;
+        padding: 24px 40px;
+        border-radius: 16px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .btn-dark {
+        border: 0;
+        outline: 0;
+        background: #6FC247;
+        color: #FFFFFF;
+    }
+    
+    .btn-light {
+        background: #FFFFFF;
+        color: #6FC247;
+        border: 1px solid #6FC247;
+    }
+    
+    .hero-image {
+        width: 1000px;
+        height: 637px;
+        margin: 0 30px;
+        padding: 20px 40px;
+    }
+    
+    .trusted-by {
+        margin-top: 20px;
+        width: 1,512px;
+        height: 789px;
+        padding: 0px 115px;
+        gap: 32px;
+        text-align: center;
+    }
+    
+    .trusted-by h2 {
+        padding-top: 60px;
+        font-family: Manrope;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 43.71px;
+        text-align: center;
+    
+    }
+    
+    .trusted-by p {
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .company-list img {
+        width: 307px;
+        height: 117px;
+        padding: 0px 48.06px;
+        padding-top: 48.06px;
+        background-color: #F9F9F9;
+        
+    }
+    
+    .row1, .row2, .row3, .row4 {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 24px;
+    }
+    
+    .why-vaultico {
+        width: 1,512px;
+        height: 456px;
+        padding: 72px 103px;
+        background-color: #000;
+        color: #FFFFFF;
+        display: block;
+        align-items: center;
+    }
+    
+    .head {
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 54.64px;
+        text-align: center;
+    }
+    
+    .subhead {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .list {
+        display: flex; 
+        justify: space-between;
+        width: 1,306px;
+        height: 117px;
+        padding-top: 64px;
+    }
+    
+    .secure, .reliable, .dedicated {
+        width: 395px;
+        height: 117px;
+        padding-right: 24px;
+        gap: 24px;
+    }
+    
+    .reliable, .dedicated {
+        padding-right: 0;
+    }
+    
+    .list h3 {
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 32.78px;
+        text-align: left;
+    
+    }
+    
+    .list p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        padding-top: 20px;
+    }
+    
+    .accurate {
+        width: Hug (1,510px)px;
+        height: Hug (1,186px)px;
+        padding: 69px 103px;
+        display: block;
+        text-align: center;
+        gap: 80px;
+    }
+    
+    .accurate h2 {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 43.71px;
+        /* text-align: center; */
+    }
+    
+    .accurate p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        /* text-align: center; */
+    
+    }
+    
+    .contain {
+        display: flex;
+        margin-top: 80px;
+        gap: 10%;
+        justify-content: space-between;
+        color: #000;
+    }
+    
+    .contain img {
+        width: 50%;
+        height: 600px;
+    }
+    
+    .contents {
+    display: block;
+    justify-content: left;
+    text-align: left;
+    width: 40%;
+    height: auto;
+    gap: 47px;
+    }
+    
+    .contents p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        /* padding-top: 20px; */
+        text-align: justify;
+        padding: 32px;
+    }
+    
+    .contents span {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 32.78px;
+        text-align: left;
+    }
+    
+    
+    .button {
+        width: 278px;
+        height: 75px;
+        background: #6FC247;
+        color: #FFFFFF;
+        border: 0;
+        outline: 0;
+        padding: 24px 40px;
+        border-radius: 16px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .demo {
+        margin: 20px 30%;
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+    }
 }
